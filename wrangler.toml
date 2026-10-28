@@ -1,0 +1,9 @@
+name = "zhostmytel"
+main = "main.py"
+compatibility_date = "2024-03-20"
+compatibility_flags = ["python_workers"]
+
+# Cloudflare KV for Session Storage (User Token တွေ သိမ်းဖို့)
+[[kv_namespaces]]
+binding = "USER_KV"
+id = "YOUR_KV_NAMESPACE_ID" 
